@@ -36,7 +36,7 @@ function customConfirm() {
   alertify.confirm("Are you sure you want to delete this file?",
     function(){
    alert(`You have selected: \n S22 Ultra: ${cart['s22']} \n Iphone 14: ${cart['iphone']} \n Huawei P40: ${cart['huawei']} \n Ipad Pro: ${cart['ipad']} \n Nokia 3310: ${cart['nokia']} \n Samsung Z Flip: ${cart['zflip']} \n Xiaomi Mi 11: ${cart['xiaomi']} \n Oneplus 9 Pro: ${cart['oneplus']}`);
-   window.location.href = "../checkout.html";
+   window.location.href = "https://reimonnazaj.github.io/Pluton/checkout.html";
     },
     function(){
       emptyCart()
